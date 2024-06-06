@@ -1,0 +1,168 @@
+  /* darkPurple: 'hsl(273, 85%, 13%)',
+  lightPurple: 'hsl(271, 12%, 34%)',
+  veryLightPurple: 'hsl(276, 100%, 99%)',
+  white: 'hsl(0, 0%, 100%)',
+  green: 'hsl(150, 100%, 63%)' */
+  header{
+    border-radius:0 0 20% 20% ;
+    background-color: hsl(273, 85%, 13%);
+    padding-bottom: 280px;
+  }
+  nav img{
+    float: left;
+  }
+  nav a{
+    color: white;
+    text-decoration: underline hsl(271, 12%, 34%);
+    float: right;
+    font-size: 1.5rem;
+  }
+  h1{
+    font-size: 84px;
+    color:hsl(276, 100%, 99%) ;
+  }
+  nav{
+    padding: 20px 200px;
+  }
+  #main{
+    padding: 40px;
+    text-align: center;
+  }
+  button{
+    padding: 14px;
+    background-color: hsl(150, 100%, 63%);
+    border: none;
+    font-weight: bold;
+  }
+  #tailored{
+    text-decoration: underline hsl(150, 100%, 63%);
+  }
+  #hero-img-contener{
+  width: 500px ;
+  margin: 0 auto;
+  position: relative;
+  }
+  #hero-img{
+  width: 100%;
+  position: absolute;
+  }
+  #bg-1{
+     position: absolute;
+     top: 20%;
+  }
+  #bg-2{
+    position:absolute ;
+    top: 20%;
+    right: 0;
+  }
+  .card{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 40px;
+    color: hsl(273, 85%, 13%);
+    margin-right: 80px;
+  }
+  .card span{
+    border: 2px solid hsl(273, 85%, 13%);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .card h2{
+    font-size: 3rem;
+
+  }
+  .card p{
+    font: size 1.5rem; 
+  }
+  #card-container{
+    padding: 200px 0% ;
+    background-color: hsl(276, 100%, 99%);
+    height: 100%;
+     text-align: center;;
+    width: 100%;
+  }
+  #founder-img{
+    width: 300px;
+    left: -150px;
+    position: absolute;
+    top: -200px ;
+    z-index: -1;
+  }
+  #founder-info{
+    height: 400px;
+    position: relative;
+    width: 600px;
+    background-color: hsl(273, 85%, 13%);
+    margin: 0 auto;
+    color: hsl(276, 100%, 99%);
+    padding: 40px;
+  }
+  #founder{
+
+    height: 100%;
+    width: 100%;
+    padding: 200px 0; 
+  }
+footer{
+  width: 100%;
+  text-align: center;
+}
+footer img{
+  padding: 20px;
+}
+#founder h2{
+  font-size: 2rem;
+
+}
+#founder p{
+  font-size: 1.5rem;
+}
+@media (max-width: 450px){
+nav{
+  padding: 20px;
+}
+nav img{
+  width: 60px;
+}
+nav a{
+  font-size: 1rem;
+}
+h1{
+  font-size: 2rem;
+}
+#founder-info{
+width: 300px;
+}
+img-1 img-2{
+  width: 100px;
+}
+#hero img container{
+width: 200px;
+}
+.card{
+  width: 200px;
+}
+#founder{
+  width: 300px;
+}
+header{
+  padding-bottom: 80px;
+}
+#card-conteiner{
+  padding: 20px 0;
+}
+#founder-img{
+  width: 150px;
+  top: -100px;
+  left: -50px;
+}
+}
+
+  

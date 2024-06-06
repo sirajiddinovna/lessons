@@ -1,0 +1,22 @@
+/*Group selecter*/
+h1,h2{
+    color: blueviolet;
+}
+/*Direct child*/
+div>p{
+    color: firebrick;
+}
+/*descendant selector*/
+ul>li{
+    color: blue;
+}
+/*Chain selector*/
+li.done{
+    color: seagreen;
+}
+/*combining combiners*/
+ ul p.done{
+    font-size: 0.5rem;
+ }
+
+
